@@ -30,7 +30,7 @@ define('DB_USER', 'phpMyAdmin');
 define('DB_PASSWORD', 'phpMyAdmin');
 
 /** MySQL hostname */
-define('DB_HOST', '');
+define('DB_HOST', 'phpmyadmin.cw637ad2cjeo.us-west-1.rds.amazonaws.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
