@@ -16,18 +16,18 @@
 
 define('WP_REDIS_HOST', 'thevegannetwork-001.c4yvp2.0001.usw1.cache.amazonaws.com');
  
-define('WP_HOME','http://thevegannetwork-259202030.us-west-1.elb.amazonaws.com');
-define('WP_SITEURL','http://thevegannetwork-259202030.us-west-1.elb.amazonaws.com');
+define('WP_HOME','http://thevegan.network');
+define('WP_SITEURL','http://thevegan.network');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'wordpress');
+define('DB_NAME', 'TheVeganNetwork');
 
 /** MySQL database username */
-define('DB_USER', 'wordpress');
+define('DB_USER', 'phpMyAdmin');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'wordpress');
+define('DB_PASSWORD', 'phpMyAdmin');
 
 /** MySQL hostname */
 define('DB_HOST', '');
@@ -64,7 +64,7 @@ define('NONCE_SALT',       'put your unique phrase here');
  * You can have multiple installations in one database if you give each a unique
  * prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'VeganWealthandAbundance_';
 
 /**
  * For developers: WordPress debugging mode.
